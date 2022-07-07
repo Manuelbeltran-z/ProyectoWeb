@@ -1,0 +1,63 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+/* ===============================COMPONENTES=======================*/
+/*====================MEDIA QUERIES PANTALLA ANCHA================ */
+/*====================MEDIA QUERIES PANTALLA PEQUEÑA================ */
+@media (max-width: 768px) {
+  #intro, #equipo {
+    width: 90% !important;
+  }
+  .servicio-fila {
+    width: 100% !important;
+    text-align: center;
+  }
+}
+/*====================RIES PANTALLA MEEEEGA PEQUEÑA================ */
+@media (max-width: 576px) {
+  .icono-wrap {
+    flex-wrap: wrap;
+    justify-content: center !important;
+  }
+}
+/*================================ MENU============================= */
+#menu a {
+  font-size: 18px;
+  font-weight: bold;
+  color: #3f3f3f;
+}
+#menu :hover {
+  color: rgb(74, 41, 165);
+}
+
+/*================================ CARRUSEL======================== */
+.carousel-inner {
+  max-height: 39rem;
+}
+
+/*================================ QUIENSOY======================== */
+.imagen-blog {
+  max-height: 20rem;
+}
+
+/*================================ FOOTER======================== */
+footer {
+  background-color: #1b2a4e;
+  min-height: 100px;
+}
+footer p {
+  color: #f3f3f3;
+  text-align: center;
+}
+
+#iconos i {
+  font-size: 25px;
+  padding: 0 8px;
+  color: #f3f3f3;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+}
+
+/*# sourceMappingURL=style.css.map */

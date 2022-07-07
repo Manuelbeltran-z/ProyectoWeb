@@ -1,0 +1,28 @@
+/*====================MEDIA QUERIES PANTALLA ANCHA================ */
+
+
+
+
+
+/*====================MEDIA QUERIES PANTALLA PEQUEÑA================ */
+@media (max-width:768px) {
+    #intro, #equipo{
+        width: 90% !important;
+        
+    }
+    .servicio-fila{
+        width: 100% !important;
+        text-align: center;
+    }
+}
+
+
+
+/*====================RIES PANTALLA MEEEEGA PEQUEÑA================ */
+
+@media (max-width: 576px){
+    .icono-wrap{
+        flex-wrap:wrap;
+        justify-content: center !important;
+    }
+}

@@ -1,0 +1,25 @@
+/*================================ FOOTER======================== */
+footer{
+    background-color: #1b2a4e;
+    min-height: 100px;
+
+    & p{
+        color: #f3f3f3;
+        text-align: center;
+    }
+    
+
+
+}
+
+
+
+#iconos{
+    
+    & i {
+        font-size: 25px;
+        padding: 0 8px;
+        color: #f3f3f3;
+        
+    }
+}
