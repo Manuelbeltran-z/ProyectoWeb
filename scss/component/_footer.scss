@@ -1,6 +1,6 @@
 /*================================ FOOTER======================== */
 footer{
-    background-color: #1b2a4e;
+    background-color: map-get($map: $pallete, $key:'secundary');
     min-height: 100px;
 
     & p{
@@ -8,7 +8,7 @@ footer{
         text-align: center;
     }
     
-
+   
 
 }
 
@@ -19,7 +19,7 @@ footer{
     & i {
         font-size: 25px;
         padding: 0 8px;
-        color: #f3f3f3;
+        color:map-get($map: $pallete, $key:'primary' );
         
     }
 }
