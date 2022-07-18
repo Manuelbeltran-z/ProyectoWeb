@@ -34,6 +34,24 @@
   background-color: #ff6392;
 }
 
+.fondo {
+  height: 100vh;
+  background-image: url("/imgdef/tienda_banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(50, 50, 50);
+  background-blend-mode: soft-light;
+}
+
+.fondo2 {
+  height: 100vh;
+  background-image: url("/imgdef/imgfondoquiensoy.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(50, 50, 50);
+  background-blend-mode: soft-light;
+}
+
 /* ===============================COMPONENTES=======================*/
 /*====================MEDIA QUERIES PANTALLA ANCHA================ */
 /*====================MEDIA QUERIES PANTALLA PEQUEÑA================ */
@@ -66,6 +84,24 @@
 /*================================ CARRUSEL======================== */
 .carousel-inner {
   max-height: 39rem;
+}
+
+.fondo {
+  height: 100vh;
+  background-image: url("/imgdef/tienda_banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(50, 50, 50);
+  background-blend-mode: soft-light;
+}
+
+.fondo2 {
+  height: 100vh;
+  background-image: url("/imgdef/imgfondoquiensoy2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(245, 245, 245);
+  background-blend-mode: soft-light;
 }
 
 /*================================ QUIENSOY======================== */
